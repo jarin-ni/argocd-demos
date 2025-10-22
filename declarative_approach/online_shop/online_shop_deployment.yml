@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: online-shop
+  name: online-shop-niraj
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: online-shop
+      app: online-shop-niraj
   template:
     metadata:
       labels:
-        app: online-shop
+        app: online-shop-niraj
     spec:
       containers:
       - name: online-shop
-        image: amitabhdevops/online_shop:latest
+        image: amitabhdevops/online-shop-niraj:latest
         ports:
         - containerPort: 3000
         resources:
