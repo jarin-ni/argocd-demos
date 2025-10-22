@@ -4,7 +4,7 @@ metadata:
   name: online-shop-service
 spec:
   selector:
-    app: online-shop
+    app: online-shop-niraj
   ports:
   - port: 3000
     targetPort: 3000
