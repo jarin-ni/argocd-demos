@@ -13,7 +13,7 @@ spec:
         app: online-shop-niraj
     spec:
       containers:
-      - name: online-shop
+      - name: online-shop-niraj
         image: amitabhdevops/online-shop-niraj:latest
         ports:
         - containerPort: 3000
